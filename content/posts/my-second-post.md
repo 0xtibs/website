@@ -35,7 +35,7 @@ Once we have obtained the threat information from GreyNoise Intelligence, we can
 Using the OpenAI API, you can pass the extracted information to ChatGPT and receive a summary. 
 
 ![2nd](/screenshot2.png)
-{{ $resizedImage := .Site.GetPage "/" | resources.GetMatch "screenshot2.png" | resize "500x" }}
+{{ $resizedImage := .Site.GetPage "/static/" | resources.GetMatch "screenshot2.png" | resize "500x" }}
 <img src="{{ $resizedImage.Permalink }}" alt="Alt Text">
 
 

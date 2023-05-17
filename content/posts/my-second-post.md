@@ -20,7 +20,7 @@ Before we begin, ensure you have the following:
 
 To get started, we'll assume you have a CSV file containing a list of IP addresses you want to analyze. Each IP address should be in a separate row under the column "IP". You can find the complete code for this process in the [GitHub repository](https://github.com/0xtibs/Threat_Intel)
 
-![CSV Screenshot](static/screenshot1.jpg)
+![CSV Screenshot](/static/screenshot1.jpg)
 
 ## Integrating GreyNoise Intelligence
 
@@ -32,7 +32,7 @@ Once we have obtained the threat information from GreyNoise Intelligence, we can
 
 Using the OpenAI API, you can pass the extracted information to ChatGPT and receive a summary. 
 
-![2nd](static/screenshot2.png)
+![2nd](/static/screenshot2.png)
 
 ## Use Cases and Benefits
 

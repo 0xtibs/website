@@ -1,4 +1,4 @@
-baseURL = "https://app.netlify.com/sites/stalwart-platypus-394c76/overview"
+baseURL = "https://app.netlify.com/sites/stalwart-platypus-394c76/"
 title = "Alexander.blog"
 languageCode = "en"
 DefaultContentLanguage = "en" # Change this to change the site's language

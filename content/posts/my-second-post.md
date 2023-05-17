@@ -20,7 +20,7 @@ Before we begin, ensure you have the following:
 
 To get started, we'll assume you have a CSV file containing a list of IP addresses you want to analyze. Each IP address should be in a separate row under the column "IP". You can find the complete code for this process in the [GitHub repository](https://github.com/0xtibs/Threat_Intel)
 
-![Screenshot](/static/screenshot1.jpg)
+![Screenshot](/screenshot1.jpg)
 
 ## Integrating GreyNoise Intelligence
 

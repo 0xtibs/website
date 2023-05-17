@@ -20,7 +20,7 @@ Before we begin, ensure you have the following:
 
 To get started, we'll assume you have a CSV file containing a list of IP addresses you want to analyze. Each IP address should be in a separate row under the column "IP". You can find the complete code for this process in the [GitHub repository](https://github.com/0xtibs/Threat_Intel)
 
-![CSV Screenshot](/static/screenshot1.jpg)
+![Screenshot](/static/screenshot1.jpg)
 
 ## Integrating GreyNoise Intelligence
 
@@ -39,7 +39,9 @@ Using the OpenAI API, you can pass the extracted information to ChatGPT and rece
 This combined approach of using ChatGPT and GreyNoise Intelligence can be highly valuable in various threat intelligence scenarios, including:
 
 1. Security Operations Center (SOC) Meetings: Summarize the threat information obtained from IP addresses, allowing security teams to quickly assess risks and make informed decisions.
+
 2. Incident Response: Generate concise summaries of threat information for effective incident response and remediation.
+
 3. Threat Hunting: Automate the analysis of large IP address lists to identify patterns and potential threats.
 
 By integrating ChatGPT and GreyNoise Intelligence, organizations can streamline their threat intelligence workflows and gain actionable insights to better protect their systems and data.

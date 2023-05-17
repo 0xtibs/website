@@ -32,7 +32,7 @@ Once we have obtained the threat information from GreyNoise Intelligence, we can
 
 Using the OpenAI API, you can pass the extracted information to ChatGPT and receive a summary. 
 
-![2nd](/static/screenshot2.png)
+![2nd](/screenshot2.png)
 
 ## Use Cases and Benefits
 

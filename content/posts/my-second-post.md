@@ -8,6 +8,8 @@ tags: [threat intelligence, ChatGPT, GreyNoise, cybersecurity]
 
 Threat intelligence plays a vital role in understanding and mitigating potential security risks. In this blog post, we'll explore a practical approach to generate threat information about IP addresses using ChatGPT and GreyNoise Intelligence. By leveraging the power of natural language processing and threat intelligence data, we can obtain concise and actionable insights to enhance our security posture.
 
+You can find the complete code for this process in the [GitHub repository](https://github.com/0xtibs/Threat_Intel)
+
 ## Prerequisites
 
 Before we begin, ensure you have the following:
@@ -18,7 +20,7 @@ Before we begin, ensure you have the following:
 
 ## Gathering IP Addresses
 
-To get started, we'll assume you have a CSV file containing a list of IP addresses you want to analyze. Each IP address should be in a separate row under the column "IP". You can find the complete code for this process in the [GitHub repository](https://github.com/0xtibs/Threat_Intel)
+To get started, we'll assume you have a CSV file containing a list of IP addresses you want to analyze. Each IP address should be in a separate row under the column "IP". 
 
 ![Screenshot](/screenshot1.jpg)
 
@@ -33,6 +35,9 @@ Once we have obtained the threat information from GreyNoise Intelligence, we can
 Using the OpenAI API, you can pass the extracted information to ChatGPT and receive a summary. 
 
 ![2nd](/screenshot2.png)
+{{ $resizedImage := .Site.GetPage "/" | resources.GetMatch "screenshot2.png" | resize "500x" }}
+<img src="{{ $resizedImage.Permalink }}" alt="Alt Text">
+
 
 ## Use Cases and Benefits
 
